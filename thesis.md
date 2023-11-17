@@ -1,31 +1,27 @@
 ---
-title: 'Titlea'
-subtitle: "Subtitle"
+title: Title2
+subtitle: Subtitle
 author:
   - name: Florian Friedrich
     orcid: 0000-0002-2252-3932
     affiliations:
-      - name: "Eberhard Karls Universität Tübingen"
-
+      - name: Eberhard Karls Universität Tübingen
 date: today
 date-format: long
-
 bibliography: content/06_references.bib
 csl: style/apa-style.csl
 link-citations: true
-
 linestretch: 1.5
 link-color: black
-
 format:
   pdf:
     documentclass: article
     papersize: a4
     fontsize: 12pt
     colorlinks: false
-    mainfont: "Times New Roman"
-    sansfont: "Arial"
-    monofont: "Courier New"
+    mainfont: Times New Roman
+    sansfont: Arial
+    monofont: Courier New
     number-sections: true
     number-depth: 3
     toc-depth: 3

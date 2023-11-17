@@ -51,15 +51,15 @@ alterations and, indeed, what factors contributed to the effect observed in prev
 }
 
 @Article{Pettijohn_2015,
-  author    = {Kyle A. Pettijohn and Gabriel A. Radvansky},
-  journal   = {Journal of Cognitive Psychology},
-  title     = {Walking through doorways causes forgetting: environmental effects},
-  year      = {2015},
-  month     = {dec},
-  number    = {3},
-  pages     = {329--340},
-  volume    = {28},
-  abstract  = {Previous work has shown a decline in memory for objects carried through a doorway
+  author     = {Kyle A. Pettijohn and Gabriel A. Radvansky},
+  journal    = {Journal of Cognitive Psychology},
+  title      = {Walking through doorways causes forgetting: environmental effects},
+  year       = {2015},
+  month      = {dec},
+  number     = {3},
+  pages      = {329--340},
+  volume     = {28},
+  abstract   = {Previous work has shown a decline in memory for objects carried through a doorway
 versus across a room. The aim of the current study is to extend this work to
 understand how variations in perceptual experience during these event shifts influence
 this finding. First a change in procedure to reduce memory load to a single item was
@@ -71,11 +71,12 @@ have a robust influence on human memory. This suggests that event cognition is
 driven more by the use of perceptual information to infer or impose a categorical shift
 from one event to another rather than by the nature of perceptual information
 available at the time},
-  doi       = {10.1080/20445911.2015.1123712},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/PettijohnRadvansky_2016.pdf:PDF},
-  groups    = {Doorway effect, Non-immersive},
-  keywords  = {Memory, event segmentation, event models, memory updating, spatial updating},
-  publisher = {Informa {UK} Limited},
+  doi        = {10.1080/20445911.2015.1123712},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/PettijohnRadvansky_2016.pdf:PDF},
+  groups     = {Doorway effect, Non-immersive},
+  keywords   = {Memory, event segmentation, event models, memory updating, spatial updating},
+  publisher  = {Informa {UK} Limited},
+  readstatus = {skimmed},
 }
 
 @Article{Radvansky_2006,
@@ -104,15 +105,15 @@ into account the context in which a person is embedded cannot adequately account
 }
 
 @Article{Seel_2018,
-  author    = {Sabrina V. Seel and Alexander Easton and Anthony McGregor and Matthew G. Buckley and Madeline J. Eacott},
-  journal   = {British Journal of Psychology},
-  title     = {Walking through doorways differentially affects recall and familiarity},
-  year      = {2018},
-  month     = {sep},
-  number    = {1},
-  pages     = {173--184},
-  volume    = {110},
-  abstract  = {Previous research has reported that walking through a doorway to a new location makes
+  author     = {Sabrina V. Seel and Alexander Easton and Anthony McGregor and Matthew G. Buckley and Madeline J. Eacott},
+  journal    = {British Journal of Psychology},
+  title      = {Walking through doorways differentially affects recall and familiarity},
+  year       = {2018},
+  month      = {sep},
+  number     = {1},
+  pages      = {173--184},
+  volume     = {110},
+  abstract   = {Previous research has reported that walking through a doorway to a new location makes
 memory for objects and events experienced in the previous location less accurate. This
 effect, termed the location updating effect, has been used to suggest that location changes
 are used to mark boundaries between events in memory: memories for objects
@@ -126,18 +127,19 @@ but not those associated with the experience of knowing, even when considering o
 most confident responses in each condition. These findings demonstrate that a shift in
 location selectively impacts recollection and so contributes to our understanding of
 boundaries in event memory},
-  doi       = {10.1111/bjop.12343},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/Seel_etal_2019.pdf:PDF},
-  groups    = {Doorway effect},
-  publisher = {Wiley},
+  doi        = {10.1111/bjop.12343},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/Seel_etal_2019.pdf:PDF},
+  groups     = {Doorway effect},
+  publisher  = {Wiley},
+  readstatus = {skimmed},
 }
 
 @TechReport{Oliveira_2014,
-  author   = {de Oliveira, R.F. and Coelho, T. and Rybarczyk, Y.},
-  title    = {Body-scaled information for affordances in a virtual environment},
-  year     = {2014},
-  type     = {techreport},
-  abstract = {The affordances available to an individual are scaled to the individual’s body.
+  author     = {de Oliveira, R.F. and Coelho, T. and Rybarczyk, Y.},
+  title      = {Body-scaled information for affordances in a virtual environment},
+  year       = {2014},
+  type       = {techreport},
+  abstract   = {The affordances available to an individual are scaled to the individual’s body.
 This scaling factor is important because it links object or environment properties and
 individual’s dimensions through an invariant value. This means there is a lawful relation
 underpinning (at least some) affordances. For instance, participants deem a stair climbable
@@ -145,20 +147,21 @@ without the aid of hands if the raiser is smaller than 0.88 their leg length (Wa
 participants walking through a door rotate their shoulders over their longitudinal axis if the
 aperture is smaller than 1.4 the width of their shoulders (Warren & Whang, 1987). In the
 present study we replicated Warren and Whang’s study in a virtual environment.},
-  comment  = {Informal summary},
-  file     = {:pdf-files/deOliveira_etal.pdf:PDF},
+  comment    = {Informal summary},
+  file       = {:pdf-files/deOliveira_etal.pdf:PDF},
+  readstatus = {skimmed},
 }
 
 @Article{DuBrow_2013,
-  author    = {Sarah DuBrow and Lila Davachi},
-  journal   = {Journal of Experimental Psychology: General},
-  title     = {The influence of context boundaries on memory for the sequential order of events.},
-  year      = {2013},
-  month     = {nov},
-  number    = {4},
-  pages     = {1277--1286},
-  volume    = {142},
-  abstract  = {Episodic memory allows us to re-experience the past by recovering the sequences of events that
+  author     = {Sarah DuBrow and Lila Davachi},
+  journal    = {Journal of Experimental Psychology: General},
+  title      = {The influence of context boundaries on memory for the sequential order of events.},
+  year       = {2013},
+  month      = {nov},
+  number     = {4},
+  pages      = {1277--1286},
+  volume     = {142},
+  abstract   = {Episodic memory allows us to re-experience the past by recovering the sequences of events that
 characterize those prior experiences. Interestingly, although experience is continuous, we are able
 to selectively retrieve and re-experience more discrete episodes from our past, raising the
 possibility that some elements become tightly related to each other in memory, while others do
@@ -174,10 +177,11 @@ representations that intervened, or bridged, the tested items (Experiment 3). To
 suggest that boundaries may serve to parse continuous experience into sequences of contextually
 related events and that this organization facilitates remembering the temporal order of events that
 share the same context.},
-  doi       = {10.1037/a0034024},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/DuBrowDavachi_2013.pdf:PDF},
-  keywords  = {episodic memory; sequence memory; event segmentation; temporal context},
-  publisher = {American Psychological Association ({APA})},
+  doi        = {10.1037/a0034024},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/DuBrowDavachi_2013.pdf:PDF},
+  keywords   = {episodic memory; sequence memory; event segmentation; temporal context},
+  publisher  = {American Psychological Association ({APA})},
+  readstatus = {skimmed},
 }
 
 @Article{Godden_1975,
@@ -199,32 +203,33 @@ share the same context.},
 }
 
 @Article{Lawrence_2014,
-  author    = {Zachary Lawrence and Daniel Peterson},
-  journal   = {Memory},
-  title     = {Mentally walking through doorways causes forgetting: The location updating effect and imagination},
-  year      = {2014},
-  month     = {nov},
-  number    = {1},
-  pages     = {12--20},
-  volume    = {24},
-  abstract  = {Memory, 2014. doi:10.1080/09658211.2014.980429},
-  doi       = {10.1080/09658211.2014.980429},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/LawrencePeterson_2016.pdf:PDF},
-  groups    = {Real world, Non-immersive, Doorway effect},
-  keywords  = {Memory; Cognition; Forgetting; Event Horizon Model},
-  publisher = {Informa {UK} Limited},
+  author     = {Zachary Lawrence and Daniel Peterson},
+  journal    = {Memory},
+  title      = {Mentally walking through doorways causes forgetting: The location updating effect and imagination},
+  year       = {2014},
+  month      = {nov},
+  number     = {1},
+  pages      = {12--20},
+  volume     = {24},
+  abstract   = {Memory, 2014. doi:10.1080/09658211.2014.980429},
+  doi        = {10.1080/09658211.2014.980429},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/LawrencePeterson_2016.pdf:PDF},
+  groups     = {Real world, Non-immersive, Doorway effect},
+  keywords   = {Memory; Cognition; Forgetting; Event Horizon Model},
+  publisher  = {Informa {UK} Limited},
+  readstatus = {skimmed},
 }
 
 @Article{Pettijohn_2016,
-  author    = {Kyle A. Pettijohn and Gabriel A. Radvansky},
-  journal   = {Quarterly Journal of Experimental Psychology},
-  title     = {Walking through doorways causes forgetting: Event structure or updating disruption?},
-  year      = {2016},
-  month     = {nov},
-  number    = {11},
-  pages     = {2119--2129},
-  volume    = {69},
-  abstract  = {According to event cognition theory, people segment experience into separate event models. One con-
+  author     = {Kyle A. Pettijohn and Gabriel A. Radvansky},
+  journal    = {Quarterly Journal of Experimental Psychology},
+  title      = {Walking through doorways causes forgetting: Event structure or updating disruption?},
+  year       = {2016},
+  month      = {nov},
+  number     = {11},
+  pages      = {2119--2129},
+  volume     = {69},
+  abstract   = {According to event cognition theory, people segment experience into separate event models. One con-
 sequence of this segmentation is that when people transport objects from one location to another,
 memory is worse than if people move across a large location. In two experiments participants navigated
 through a virtual environment, and recognition memory was tested in either the presence or the absence
@@ -240,23 +245,24 @@ second delay prior to the presentation of a memory probe. The pattern of results
 adding a delay, thereby rejecting a temporary disruption account. These results are interpreted in the
 context of the event horizon model, which suggests that when there are multiple event models that
 contain common elements there is interference at retrieval, which compromises performance.},
-  doi       = {10.1080/17470218.2015.1101478},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/PettijohnRadvansky_2016a.pdf:PDF},
-  groups    = {Doorway effect, Non-immersive},
-  keywords  = {Event cognition; Mental models; Spatial updating; Event models},
-  publisher = {{SAGE} Publications},
+  doi        = {10.1080/17470218.2015.1101478},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/PettijohnRadvansky_2016a.pdf:PDF},
+  groups     = {Doorway effect, Non-immersive},
+  keywords   = {Event cognition; Mental models; Spatial updating; Event models},
+  publisher  = {{SAGE} Publications},
+  readstatus = {skimmed},
 }
 
 @Article{Pettijohn_2018,
-  author    = {Kyle A. Pettijohn and Gabriel A. Radvansky},
-  journal   = {Journal of Cognitive Psychology},
-  title     = {Walking through doorways causes forgetting: active and passive interaction},
-  year      = {2018},
-  month     = {nov},
-  number    = {8},
-  pages     = {771--777},
-  volume    = {30},
-  abstract  = {The current study explored the location updating effect when people passively interacted
+  author     = {Kyle A. Pettijohn and Gabriel A. Radvansky},
+  journal    = {Journal of Cognitive Psychology},
+  title      = {Walking through doorways causes forgetting: active and passive interaction},
+  year       = {2018},
+  month      = {nov},
+  number     = {8},
+  pages      = {771--777},
+  volume     = {30},
+  abstract   = {The current study explored the location updating effect when people passively interacted
 with an environment. This was assessed experimentally by having one person actively
 navigate through a virtual environment while picking up and putting objects down. A
 second person passively viewed the movement. Both participants responded to
@@ -268,23 +274,24 @@ active and passive participants but was smaller for the passive group. Thus, the
 from one event to another causes information to be harder to remember, reinforcing
 the importance of event cognition in memory. However, the more involved a person is
 in the interactive event, the more pronounced the effects},
-  doi       = {10.1080/20445911.2018.1540492},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/PettijohnRadvansky_2018.pdf:PDF},
-  groups    = {Doorway effect, Non-immersive},
-  keywords  = {Memory, event cognition, event segmentation, spatial updating},
-  publisher = {Informa {UK} Limited},
+  doi        = {10.1080/20445911.2018.1540492},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/PettijohnRadvansky_2018.pdf:PDF},
+  groups     = {Doorway effect, Non-immersive},
+  keywords   = {Memory, event cognition, event segmentation, spatial updating},
+  publisher  = {Informa {UK} Limited},
+  readstatus = {skimmed},
 }
 
 @Article{Pettijohn_2018,
-  author    = {Kyle A. Pettijohn and Gabriel A. Radvansky},
-  journal   = {Memory},
-  title     = {Walking through doorways causes forgetting: recall},
-  year      = {2018},
-  month     = {jun},
-  number    = {10},
-  pages     = {1430--1435},
-  volume    = {26},
-  abstract  = {The aim of the current study was to explore how the location updating effect is affected when
+  author     = {Kyle A. Pettijohn and Gabriel A. Radvansky},
+  journal    = {Memory},
+  title      = {Walking through doorways causes forgetting: recall},
+  year       = {2018},
+  month      = {jun},
+  number     = {10},
+  pages      = {1430--1435},
+  volume     = {26},
+  abstract   = {The aim of the current study was to explore how the location updating effect is affected when
 people are tested using recall rather than recognition, which is what has been done in prior
 work. Differences in the memory processes involved with these two tasks lead to predictions
 for two different patterns of data. In Experiment 1, memory was tested by having participants
@@ -296,26 +303,28 @@ when both objects were correctly recalled, there was a bias to remember them in 
 that they were encountered. Finally, if only one object was correctly recalled, it was the
 Associated object that was currently being carried. Overall, these results are consistent with
 the Event Horizon Model of event cognition.},
-  doi       = {10.1080/09658211.2018.1489555},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/PettijohnRadvansky_2018a.pdf:PDF},
-  groups    = {Doorway effect, Non-immersive},
-  keywords  = {Event models; event cognition; updating; memory; recall},
-  publisher = {Informa {UK} Limited},
+  doi        = {10.1080/09658211.2018.1489555},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/PettijohnRadvansky_2018a.pdf:PDF},
+  groups     = {Doorway effect, Non-immersive},
+  keywords   = {Event models; event cognition; updating; memory; recall},
+  publisher  = {Informa {UK} Limited},
+  readstatus = {skimmed},
 }
 
 @Article{Radvansky_2010,
-  author    = {Gabriel A. Radvansky and Andrea K. Tamplin and Sabine A. Krawietz},
-  journal   = {Psychonomic Bulletin & Review},
-  title     = {Walking through doorways causes forgetting: Environmental integration},
-  year      = {2010},
-  month     = {dec},
-  number    = {6},
-  pages     = {900--904},
-  volume    = {17},
-  doi       = {10.3758/pbr.17.6.900},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/Radvansky_etal_2010.pdf:PDF},
-  groups    = {Doorway effect, Non-immersive},
-  publisher = {Springer Science and Business Media {LLC}},
+  author     = {Gabriel A. Radvansky and Andrea K. Tamplin and Sabine A. Krawietz},
+  journal    = {Psychonomic Bulletin & Review},
+  title      = {Walking through doorways causes forgetting: Environmental integration},
+  year       = {2010},
+  month      = {dec},
+  number     = {6},
+  pages      = {900--904},
+  volume     = {17},
+  doi        = {10.3758/pbr.17.6.900},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/Radvansky_etal_2010.pdf:PDF},
+  groups     = {Doorway effect, Non-immersive},
+  publisher  = {Springer Science and Business Media {LLC}},
+  readstatus = {skimmed},
 }
 
 @Article{Radvansky_2011,
@@ -336,23 +345,24 @@ the Event Horizon Model of event cognition.},
 }
 
 @Article{Radvansky_2017,
-  author    = {Gabriel A Radvansky and Jeffrey M Zacks},
-  journal   = {Current Opinion in Behavioral Sciences},
-  title     = {Event boundaries in memory and cognition},
-  year      = {2017},
-  month     = {oct},
-  pages     = {133--140},
-  volume    = {17},
-  abstract  = {Research on event cognition is rapidly developing and is revealing fundamental aspects of human
+  author     = {Gabriel A Radvansky and Jeffrey M Zacks},
+  journal    = {Current Opinion in Behavioral Sciences},
+  title      = {Event boundaries in memory and cognition},
+  year       = {2017},
+  month      = {oct},
+  pages      = {133--140},
+  volume     = {17},
+  abstract   = {Research on event cognition is rapidly developing and is revealing fundamental aspects of human
 cognition. In this paper, we review recent and current work that is driving this field forward. We
 first outline the Event Horizon Model, which broadly describes the impact of event boundaries on
 cognition and memory. Then, we address recent work on event segmentation, the role of event
 cognition in working memory and long-term memory, including event model updating, and long
 term retention. Throughout we also consider how event cognition varies across individuals and
 groups of people and consider the neural mechanisms involved.},
-  doi       = {10.1016/j.cobeha.2017.08.006},
-  file      = {:pdf-files/RadvanskyZacks_2017.pdf:PDF},
-  publisher = {Elsevier {BV}},
+  doi        = {10.1016/j.cobeha.2017.08.006},
+  file       = {:pdf-files/RadvanskyZacks_2017.pdf:PDF},
+  publisher  = {Elsevier {BV}},
+  readstatus = {skimmed},
 }
 
 @Article{Smith_1978,
@@ -386,31 +396,32 @@ mental context.},
 }
 
 @Article{Smith_2001,
-  author    = {Steven M. Smith and Edward Vela},
-  journal   = {Psychonomic Bulletin & Review},
-  title     = {Environmental context-dependent memory: A review and meta-analysis},
-  year      = {2001},
-  month     = {jun},
-  number    = {2},
-  pages     = {203--220},
-  volume    = {8},
-  doi       = {10.3758/bf03196157},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/SmithVela_2001.pdf:PDF},
-  priority  = {prio1},
-  publisher = {Springer Science and Business Media {LLC}},
-  ranking   = {rank5},
+  author     = {Steven M. Smith and Edward Vela},
+  journal    = {Psychonomic Bulletin & Review},
+  title      = {Environmental context-dependent memory: A review and meta-analysis},
+  year       = {2001},
+  month      = {jun},
+  number     = {2},
+  pages      = {203--220},
+  volume     = {8},
+  doi        = {10.3758/bf03196157},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/SmithVela_2001.pdf:PDF},
+  priority   = {prio1},
+  publisher  = {Springer Science and Business Media {LLC}},
+  ranking    = {rank5},
+  readstatus = {skimmed},
 }
 
 @Article{Soler_Dom_nguez_2020,
-  author    = {Jos{\'{e}} L Soler-Dom{\'{\i}}nguez and Carla de~Juan and Manuel Contero and Mariano Alca{\~{n}}iz},
-  journal   = {Journal of Computational Design and Engineering},
-  title     = {I walk, therefore I am: a multidimensional study on the influence of the locomotion method upon presence in virtual reality},
-  year      = {2020},
-  month     = {apr},
-  number    = {5},
-  pages     = {577--590},
-  volume    = {7},
-  abstract  = {A defining virtual reality (VR) metric is the sense of presence, a complex, multidimensional psychophysical construct that
+  author     = {Jos{\'{e}} L Soler-Dom{\'{\i}}nguez and Carla de~Juan and Manuel Contero and Mariano Alca{\~{n}}iz},
+  journal    = {Journal of Computational Design and Engineering},
+  title      = {I walk, therefore I am: a multidimensional study on the influence of the locomotion method upon presence in virtual reality},
+  year       = {2020},
+  month      = {apr},
+  number     = {5},
+  pages      = {577--590},
+  volume     = {7},
+  abstract   = {A defining virtual reality (VR) metric is the sense of presence, a complex, multidimensional psychophysical construct that
 represents how intense is the sensation of actually being there, inside the virtual environment (VE), forgetting how
 technology mediates the experience. Our paper explores how locomotion influences presence, studying two different ways
 of artificial movement along the VE: walking-in-place (through head bobbing detection) and indirect walking (through
@@ -424,10 +435,11 @@ by collecting the participants’ reactions, and PP by using a bracelet that reg
 (i) There is no correlation between the different presence metrics. This opens the door to a simpler way of measuring
 presence in an objective, reliable way. (ii) There is no significant difference between the two locomotion techniques for any
 of the three metrics, which shows that the authenticity of VR does not rely on how you move within the VE.},
-  doi       = {10.1093/jcde/qwaa040},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/Soler-Dominguez_etal_2020.pdf:PDF},
-  keywords  = {presence; interaction; locomotion; virtual reality},
-  publisher = {Oxford University Press ({OUP})},
+  doi        = {10.1093/jcde/qwaa040},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/Soler-Dominguez_etal_2020.pdf:PDF},
+  keywords   = {presence; interaction; locomotion; virtual reality},
+  publisher  = {Oxford University Press ({OUP})},
+  readstatus = {skimmed},
 }
 
 @Article{Wang_2023,
@@ -460,48 +472,50 @@ in preparation for future events.},
 }
 
 @Article{Wang_2022,
-  author    = {Yuxi Candice Wang and Tobias Egner},
-  journal   = {Cognition},
-  title     = {Switching task sets creates event boundaries in memory},
-  year      = {2022},
-  month     = {apr},
-  pages     = {104992},
-  volume    = {221},
-  doi       = {10.1016/j.cognition.2021.104992},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/WangEgner_2022.pdf:PDF},
-  publisher = {Elsevier {BV}},
+  author     = {Yuxi Candice Wang and Tobias Egner},
+  journal    = {Cognition},
+  title      = {Switching task sets creates event boundaries in memory},
+  year       = {2022},
+  month      = {apr},
+  pages      = {104992},
+  volume     = {221},
+  doi        = {10.1016/j.cognition.2021.104992},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/WangEgner_2022.pdf:PDF},
+  publisher  = {Elsevier {BV}},
+  readstatus = {skimmed},
 }
 
 @Article{Gaudl_2312,
-  author    = {Watson, Paul and Gaudl, Swen E.},
-  journal   = {ICAT-EGVE 2021 - International Conference on Artificial Reality and Telexistence and Eurographics Symposium on Virtual Environments},
-  title     = {Walking Through Virtual Doors: A Study on the Effects of Virtual Location Changes on Memory},
-  year      = {2021},
-  abstract  = {The spaces we inhabit can shape and influence the way in which we learn or reinforce information. Virtual reality (VR) is a
+  author     = {Watson, Paul and Gaudl, Swen E.},
+  journal    = {ICAT-EGVE 2021 - International Conference on Artificial Reality and Telexistence and Eurographics Symposium on Virtual Environments},
+  title      = {Walking Through Virtual Doors: A Study on the Effects of Virtual Location Changes on Memory},
+  year       = {2021},
+  abstract   = {The spaces we inhabit can shape and influence the way in which we learn or reinforce information. Virtual reality (VR) is a
 technology that allows us to alter and create designed environments with great freedom over the visual, audio, and narrative
 elements. This freedom would benefit from further guidelines that detail approaches and implementations to best achieve desired
 information delivery goals. In this paper we present findings of a study that applies location-based memory strategies to VR
 environments, with the aim to aid word list recall without the subjects being required to apply any memory strategy themselves.
 Our findings suggest that VR may interfere with the incidental processing of multiple rooms and potential aid to recall as
 demonstrated in real world studies},
-  booktitle = {International Conference on Artificial Reality and Telexistence Eurographics Symposium on Virtual Environments (2021) J. Orlosky, D. Reiners, and B. Weyers (Editors)},
-  doi       = {10.2312/EGVE.20211321},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/WatsonGaudl_2021.pdf:PDF},
-  groups    = {Immersive, Doorway effect},
-  keywords  = {Human centered computing, Virtual reality, Applied computing, Interactive learning environments},
-  publisher = {The Eurographics Association},
+  booktitle  = {International Conference on Artificial Reality and Telexistence Eurographics Symposium on Virtual Environments (2021) J. Orlosky, D. Reiners, and B. Weyers (Editors)},
+  doi        = {10.2312/EGVE.20211321},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/WatsonGaudl_2021.pdf:PDF},
+  groups     = {Immersive, Doorway effect},
+  keywords   = {Human centered computing, Virtual reality, Applied computing, Interactive learning environments},
+  publisher  = {The Eurographics Association},
+  readstatus = {skimmed},
 }
 
 @Article{Brunec_2018,
-  author    = {Iva K. Brunec and Morris Moscovitch and Morgan D. Barense},
-  journal   = {Trends in Cognitive Sciences},
-  title     = {Boundaries Shape Cognitive Representations of Spaces and Events},
-  year      = {2018},
-  month     = {jul},
-  number    = {7},
-  pages     = {637--650},
-  volume    = {22},
-  abstract  = {Efficient navigation from one place to another is facilitated by the ability to use
+  author     = {Iva K. Brunec and Morris Moscovitch and Morgan D. Barense},
+  journal    = {Trends in Cognitive Sciences},
+  title      = {Boundaries Shape Cognitive Representations of Spaces and Events},
+  year       = {2018},
+  month      = {jul},
+  number     = {7},
+  pages      = {637--650},
+  volume     = {22},
+  abstract   = {Efficient navigation from one place to another is facilitated by the ability to use
 spatial boundaries to segment routes into their component parts. Similarly,
 memory for individual episodes relies on the ability to use shifts in spatiotem-
 poral contexts to segment the ongoing stream of experience. The segmentation
@@ -512,9 +526,10 @@ the key role of boundaries in spatial and episodic memory. We propose that a
 fundamental [259_TD$DIF]event boundary detection mechanism enables navigation in both
 the spatial and episodic domains, and serves to form cohesive representations
 that can be used to predict and guide future behavior.},
-  doi       = {10.1016/j.tics.2018.03.013},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/Brunec_etal_2018.pdf:PDF},
-  publisher = {Elsevier {BV}},
+  doi        = {10.1016/j.tics.2018.03.013},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/Brunec_etal_2018.pdf:PDF},
+  publisher  = {Elsevier {BV}},
+  readstatus = {skimmed},
 }
 
 @Article{Thill_2013,
@@ -535,27 +550,29 @@ that can be used to predict and guide future behavior.},
 }
 
 @Article{Logie_2021,
-  author    = {Matthew R. Logie and David I. Donaldson},
-  journal   = {Cognition},
-  title     = {Do doorways really matter: Investigating memory benefits of event segmentation in a virtual learning environment},
-  year      = {2021},
-  month     = {apr},
-  pages     = {104578},
-  volume    = {209},
-  doi       = {10.1016/j.cognition.2020.104578},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/LogieDonaldson_2021.pdf:PDF},
-  groups    = {Doorway effect},
-  publisher = {Elsevier {BV}},
+  author     = {Matthew R. Logie and David I. Donaldson},
+  journal    = {Cognition},
+  title      = {Do doorways really matter: Investigating memory benefits of event segmentation in a virtual learning environment},
+  year       = {2021},
+  month      = {apr},
+  pages      = {104578},
+  volume     = {209},
+  doi        = {10.1016/j.cognition.2020.104578},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/LogieDonaldson_2021.pdf:PDF},
+  groups     = {Doorway effect},
+  publisher  = {Elsevier {BV}},
+  readstatus = {skimmed},
 }
 
 @MastersThesis{Howard_2020,
-  author   = {Howard, Briana},
-  school   = {Iowa State University},
-  title    = {An exploration of the effect of multi-sensoriy experience on the doorway phenomenon},
-  year     = {2020},
-  abstract = {Doorways are a necessity to interior environments but are often placed with intention toward maximizing spatial capacity as opposed to creating a spatial experience. Previous studies have shown that memory for information introduced to a person is harder to remember after traversing a doorway than it is without a doorway present (Pettijohn & Radvansky, 2010, 2016; Radvansky et al., 2011, 2015; Radvansky & Copeland, 2006). However, in a designed space, there are many additional sensory factors present when changing rooms and their impact has not yet been explored. The goals of the research were (1) to identify how sensory input might affect the doorway phenomenon through a literature review and (2) to investigate the effects of visual depth on the doorway phenomenon using a Virtual Reality construct created with a program used specifically in design fields. The literary analysis indicates that sensory perception, emotion, and ability have been shown to work interchangeably in their effect on human experience, including memory (Augustin, 2009; Curiel & Radvansky, 1998; Herz, 1998, 2004; Herz & Schooler, 2002; Mackworth, 1965; Proffitt, 2006a, 2006b; Tyng et al., 2017; Witt & Proffitt, 2008) and may be integral in the influence of the doorway phenomenon on memory recall ability. The VR trials were unable to determine that visual depth has a significant impact on memory regarding the doorway phenomenon. This research is an initial step toward enabling interior designers to make the best- informed decisions about how doorways can be used as a tool to manipulate a user’s experience of a designed space.},
-  file     = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/Howard_2020.pdf:PDF},
-  groups   = {Immersive, Doorway effect},
+  author     = {Howard, Briana},
+  school     = {Iowa State University},
+  title      = {An exploration of the effect of multi-sensoriy experience on the doorway phenomenon},
+  year       = {2020},
+  abstract   = {Doorways are a necessity to interior environments but are often placed with intention toward maximizing spatial capacity as opposed to creating a spatial experience. Previous studies have shown that memory for information introduced to a person is harder to remember after traversing a doorway than it is without a doorway present (Pettijohn & Radvansky, 2010, 2016; Radvansky et al., 2011, 2015; Radvansky & Copeland, 2006). However, in a designed space, there are many additional sensory factors present when changing rooms and their impact has not yet been explored. The goals of the research were (1) to identify how sensory input might affect the doorway phenomenon through a literature review and (2) to investigate the effects of visual depth on the doorway phenomenon using a Virtual Reality construct created with a program used specifically in design fields. The literary analysis indicates that sensory perception, emotion, and ability have been shown to work interchangeably in their effect on human experience, including memory (Augustin, 2009; Curiel & Radvansky, 1998; Herz, 1998, 2004; Herz & Schooler, 2002; Mackworth, 1965; Proffitt, 2006a, 2006b; Tyng et al., 2017; Witt & Proffitt, 2008) and may be integral in the influence of the doorway phenomenon on memory recall ability. The VR trials were unable to determine that visual depth has a significant impact on memory regarding the doorway phenomenon. This research is an initial step toward enabling interior designers to make the best- informed decisions about how doorways can be used as a tool to manipulate a user’s experience of a designed space.},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/Howard_2020.pdf:PDF},
+  groups     = {Immersive, Doorway effect},
+  readstatus = {skimmed},
 }
 
 @Article{Gurguryan_2020,
@@ -663,32 +680,34 @@ that can be used to predict and guide future behavior.},
 }
 
 @Article{Bar_2004,
-  author    = {Moshe Bar},
-  journal   = {Nature Reviews Neuroscience},
-  title     = {Visual objects in context},
-  year      = {2004},
-  month     = {aug},
-  number    = {8},
-  pages     = {617--629},
-  volume    = {5},
-  doi       = {10.1038/nrn1476},
-  file      = {:pdf-files/Bar_2004.pdf:PDF},
-  publisher = {Springer Science and Business Media {LLC}},
+  author     = {Moshe Bar},
+  journal    = {Nature Reviews Neuroscience},
+  title      = {Visual objects in context},
+  year       = {2004},
+  month      = {aug},
+  number     = {8},
+  pages      = {617--629},
+  volume     = {5},
+  doi        = {10.1038/nrn1476},
+  file       = {:pdf-files/Bar_2004.pdf:PDF},
+  publisher  = {Springer Science and Business Media {LLC}},
+  readstatus = {skimmed},
 }
 
 @Article{Tamplin_2013,
-  author    = {Andrea K. Tamplin and Sabine A. Krawietz and Gabriel A. Radvansky and David E. Copeland},
-  journal   = {Memory & Cognition},
-  title     = {Event memory and moving in a well-known environment},
-  year      = {2013},
-  month     = {jun},
-  number    = {8},
-  pages     = {1109--1121},
-  volume    = {41},
-  doi       = {10.3758/s13421-013-0329-2},
-  file      = {:pdf-files/Tamplin_etal_2013.pdf:PDF},
-  priority  = {prio1},
-  publisher = {Springer Science and Business Media {LLC}},
+  author     = {Andrea K. Tamplin and Sabine A. Krawietz and Gabriel A. Radvansky and David E. Copeland},
+  journal    = {Memory & Cognition},
+  title      = {Event memory and moving in a well-known environment},
+  year       = {2013},
+  month      = {jun},
+  number     = {8},
+  pages      = {1109--1121},
+  volume     = {41},
+  doi        = {10.3758/s13421-013-0329-2},
+  file       = {:pdf-files/Tamplin_etal_2013.pdf:PDF},
+  priority   = {prio1},
+  publisher  = {Springer Science and Business Media {LLC}},
+  readstatus = {skimmed},
 }
 
 @Misc{Tromp_2022,
@@ -990,18 +1009,19 @@ that can be used to predict and guide future behavior.},
 }
 
 @Article{Horner_2016,
-  author    = {Aidan J. Horner and James A. Bisby and Aijing Wang and Katrina Bogus and Neil Burgess},
-  journal   = {Cognition},
-  title     = {The role of spatial boundaries in shaping long-term event representations},
-  year      = {2016},
-  month     = {sep},
-  pages     = {151--164},
-  volume    = {154},
-  abstract  = {Cognition, 154 (2016) 151-164. doi:10.1016/j.cognition.2016.05.013},
-  doi       = {10.1016/j.cognition.2016.05.013},
-  file      = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/Horner_etal_2016.pdf:PDF},
-  keywords  = {Episodic memory, Event segmentation, Spatial memory, Computational modelling, Virtual reality},
-  publisher = {Elsevier {BV}},
+  author     = {Aidan J. Horner and James A. Bisby and Aijing Wang and Katrina Bogus and Neil Burgess},
+  journal    = {Cognition},
+  title      = {The role of spatial boundaries in shaping long-term event representations},
+  year       = {2016},
+  month      = {sep},
+  pages      = {151--164},
+  volume     = {154},
+  abstract   = {Cognition, 154 (2016) 151-164. doi:10.1016/j.cognition.2016.05.013},
+  doi        = {10.1016/j.cognition.2016.05.013},
+  file       = {:C\:/Users/flori/Nextcloud/obsidian-sync/obsidian-vault/1_projects/master-thesis/literature/pdf-files/Horner_etal_2016.pdf:PDF},
+  keywords   = {Episodic memory, Event segmentation, Spatial memory, Computational modelling, Virtual reality},
+  publisher  = {Elsevier {BV}},
+  readstatus = {skimmed},
 }
 
 @Article{BOWMAN_1999,
@@ -1026,6 +1046,128 @@ that can be used to predict and guide future behavior.},
   volume    = {6},
   doi       = {10.3389/fpsyg.2015.01103},
   publisher = {Frontiers Media {SA}},
+}
+
+@Article{Swallow_2009,
+  author    = {Khena M. Swallow and Jeffrey M. Zacks and Richard A. Abrams},
+  journal   = {Journal of Experimental Psychology: General},
+  title     = {Event boundaries in perception affect memory encoding and updating.},
+  year      = {2009},
+  month     = {may},
+  number    = {2},
+  pages     = {236--257},
+  volume    = {138},
+  doi       = {10.1037/a0015631},
+  publisher = {American Psychological Association ({APA})},
+}
+
+@Article{Krohn_2020,
+  author    = {Stephan Krohn and Johanne Tromp and Eva M Quinque and Julia Belger and Felix Klotzsche and Sophia Rekers and Paul Chojecki and Jeroen de Mooij and Mert Akbal and Cade McCall and Arno Villringer and Michael Gaebler and Carsten Finke and Angelika Thöne-Otto},
+  journal   = {Journal of Medical Internet Research},
+  title     = {Multidimensional Evaluation of Virtual Reality Paradigms in Clinical Neuropsychology: Application of the {VR}-Check Framework},
+  year      = {2020},
+  month     = {apr},
+  number    = {4},
+  pages     = {e16724},
+  volume    = {22},
+  doi       = {10.2196/16724},
+  publisher = {{JMIR} Publications Inc.},
+}
+
+@Article{Radvansky_1998,
+  author    = {Gabriel A. Radvansky},
+  journal   = {Psychonomic Bulletin {\&}amp$\mathsemicolon$ Review},
+  title     = {The organization of information retrieved from situation models},
+  year      = {1998},
+  month     = {jun},
+  number    = {2},
+  pages     = {283--289},
+  volume    = {5},
+  doi       = {10.3758/bf03212952},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@MastersThesis{Geudeke_2008,
+  author = {Branko Lennart Geudeke},
+  school = {University of Twente},
+  title  = {The Role of Texture Fidelity on Spatial Learning in Synthetic Environments},
+  year   = {2008},
+  month  = oct,
+}
+
+@Article{Mou_2009,
+  author    = {Weimin Mou and Hui Zhang and Timothy P. McNamara},
+  journal   = {Cognition},
+  title     = {Novel-view scene recognition relies on identifying spatial reference directions},
+  year      = {2009},
+  month     = {may},
+  number    = {2},
+  pages     = {175--186},
+  volume    = {111},
+  doi       = {10.1016/j.cognition.2009.01.007},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Huang_2023,
+  author    = {Liqiang Huang},
+  journal   = {Nature Human Behaviour},
+  title     = {A quasi-comprehensive exploration of the mechanisms of spatial working memory},
+  year      = {2023},
+  month     = {mar},
+  number    = {5},
+  pages     = {729--739},
+  volume    = {7},
+  doi       = {10.1038/s41562-023-01559-z},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@Article{Wraga_2004,
+  author    = {Maryjane Wraga and Sarah H. Creem-Regehr and Dennis R. Proffitt},
+  journal   = {Memory {\&}amp$\mathsemicolon$ Cognition},
+  title     = {Spatial updating of virtual displays},
+  year      = {2004},
+  month     = {apr},
+  number    = {3},
+  pages     = {399--415},
+  volume    = {32},
+  doi       = {10.3758/bf03195834},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@TechReport{Christou_1999,
+  author      = {Chris G. Christou, Bosco S. Tjan, Heinrich H. Bülthoff},
+  institution = {Max-Planck-Institut für biologische Kybernetik, Tübingen},
+  title       = {Viewpoint information provided by a familiar environment facilitates object identification},
+  year        = {1999},
+  month       = mar,
+}
+
+@InCollection{McNamara_2003,
+  author    = {Timothy P. McNamara},
+  booktitle = {Spatial Cognition {III}},
+  publisher = {Springer Berlin Heidelberg},
+  title     = {How Are the Locations of Objects in the Environment Represented in Memory?},
+  year      = {2003},
+  pages     = {174--191},
+  doi       = {10.1007/3-540-45004-1_11},
+}
+
+@Article{Sun_2004,
+  author = {Yanlong Sun, Hongbin Wang, Todd R. Johnson},
+  title  = {Spatial Updating in Intrinsic Frames of Reference},
+  year   = {2004},
+}
+
+@Article{Vasser_2020,
+  author    = {Madis Vasser and Jaan Aru},
+  journal   = {Current Opinion in Psychology},
+  title     = {Guidelines for immersive virtual reality in psychological research},
+  year      = {2020},
+  month     = {dec},
+  pages     = {71--76},
+  volume    = {36},
+  doi       = {10.1016/j.copsyc.2020.04.010},
+  publisher = {Elsevier {BV}},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
