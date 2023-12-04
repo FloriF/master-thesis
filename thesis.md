@@ -1,6 +1,6 @@
 ---
 title: Title2
-subtitle: Subtitle
+subtitle: Master Thesis Cognitive Science
 author:
   - name: Florian Friedrich
     orcid: 0000-0002-2252-3932

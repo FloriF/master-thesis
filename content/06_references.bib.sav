@@ -1180,6 +1180,7 @@ that can be used to predict and guide future behavior.},
 1 StaticGroup:Doorway effect\;0\;1\;0x4d3399ff\;DOOR\;\;;
 1 StaticGroup:General:Context-dependent memory\;0\;0\;0x4d66ccff\;BRAIN\;\;;
 1 StaticGroup:General:Event segmentation\;0\;1\;0x8066ccff\;ABJAD_HEBREW\;\;;
+1 StaticGroup:Software\;0\;1\;0x8a8a8aff\;BLENDER_SOFTWARE\;\;;
 1 StaticGroup:Spatial Layout Task\;0\;1\;0x008000ff\;ARRANGE_SEND_TO_BACK\;\;;
 1 StaticGroup:Virtual Reality\;0\;1\;0xb3b31aff\;GLASSES\;\;;
 2 StaticGroup:Immersive\;0\;1\;0xffff4dff\;\;\;;
