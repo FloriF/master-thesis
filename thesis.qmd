@@ -13,6 +13,8 @@ csl: style/apa-style.csl
 link-citations: true
 linestretch: 1.5
 link-color: black
+execute:
+  echo: false
 format:
   pdf:
     documentclass: article
@@ -39,7 +41,7 @@ format:
 <!-- abstract -->
 <!-- start roman page numbering (I II III) -->
 \pagenumbering{roman}
-{{< include content/00_abstract.md >}}
+{{< include content/00_abstract.qmd >}}
 \newpage
 
 <!-- toc, lof, lot and add them to toc-->
@@ -57,19 +59,19 @@ format:
 <!-- start arabic page numbering (1 2 3) -->
 \pagenumbering{arabic}
 
-{{< include content/01_introduction.md >}}
+{{< include content/01_introduction.qmd >}}
 \newpage
 
-{{< include content/02_methods.md >}}
+{{< include content/02_methods.qmd >}}
 \newpage
 
-{{< include content/03_analysis.md >}}
+{{< include content/03_analysis.qmd >}}
 \newpage
 
-{{< include content/04_results.md >}}
+{{< include content/04_results.qmd >}}
 \newpage
 
-{{< include content/05_discussion.md >}}
+{{< include content/05_discussion.qmd >}}
 \newpage
 
 # References
@@ -83,8 +85,8 @@ format:
 \endgroup
 \newpage
 
-{{< include content/07_appendix.md >}}
+{{< include content/07_appendix.qmd >}}
 \newpage
 
-{{< include content/08_statement.md >}}
+{{< include content/08_statement.qmd >}}
 \newpage

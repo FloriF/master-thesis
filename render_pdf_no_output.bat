@@ -1,1 +1,1 @@
-quarto render thesis.md --to pdf
+quarto render thesis.qmd --to pdf

@@ -12,4 +12,4 @@ I try to use **free open-source software (FOSS)** wherever I can, especially on 
 - To create PDF files from Markdown (or text files in general), you also need a LaTeX installation. I prefer [MiKTeX](https://miktex.org), since it can automatically install missing packages and thus it only downloads the stuff you actually need for your document.
 - To view the final PDF, I use [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader).
 
-The only thing that is not open-source is my favourite text editor, [Sublime Text](https://www.sublimetext.com).
+I am currently using [VSCode](https://code.visualstudio.com) as my main text editor, which is not completely open source, but I plan on switching to [VSCodium](https://vscodium.com).

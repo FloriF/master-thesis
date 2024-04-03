@@ -1,0 +1,7 @@
+# Discussion
+
+```{r}
+p_value <- 0.01
+```
+
+This is a significant example (p < `r toString(p_value)`)
