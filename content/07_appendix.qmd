@@ -1,1 +1,43 @@
 # Appendix
+
+## Availability of data and materials {#availability}
+
+The preregistration for this study, the experimental code, datasets generated and/or analysed during the current study as well as the source files for this report are available in this Open Science Framework repository: [https://osf.io/kz8a6/](https://osf.io/kz8a6/), also available via [https://doi.org/10.17605/OSF.IO/KZ8A6](https://doi.org/10.17605/OSF.IO/KZ8A6).
+
+Also available separately on OSF:
+
+- the preregistration (https://osf.io/xcsvg)
+- a video demonstration for a single trial (https://osf.io/5cydj)
+
+## Deviations from preregistration {#prereg-deviations}
+
+Any deviation in this study from the preregistration is reported here.
+
+### Number of participants
+
+Originally, the goal was to record at least 30 participants. However, this number is not based on a power analysis, since the present study uses a completely new combination of experimental setup and task, so the effect size could not reliably be estimated. Thus, 30 was chosen as this is a common number of participants for VR studies, considering potential exclusions due to cyber sickness. This number could not be reached due to time and resource limitations for this Master Thesis.
+
+Fortunately, no participant had to stop the experiment due to cyber sickness, resulting in a final number of 27 participants, 25 of which are included in the reported analyses.
+
+### Task difficulty
+
+During data collection, preliminary examination of the first 18 valid participants revealed no observable doorway or context effect as well as a very high task performance overall. Examination of the questionnaires also revealed that participants consistently used a very effective strategy for remembering, leading to the suspicion that the task might be too easy. Due to his being a Master Thesis of highly exploratory nature, a change in task difficulty seemed to be appropriate to maximise the information gained from this experiment.
+
+### Exploratory Analyses
+
+Additional analyses were mentioned in the preregistration for this study that were ultimately not executed. First, since no clear effect of doorway or context on memory performance was found, there was no reason to define boundary strength as a new variable, as the results would not have been changed. The conceptual idea, for potential future research, would be to vary the strength of the event boundaries. In particular, the presence of a doorway that has to be manually opened in combination with a very salient context change might be interpreted as a very strong boundary. The weakest possible boundary would then be one single large room, and, importantly, there could be steps created in between by having a salient context change but no doorway. This in turn could then be examined if it were a weaker or stronger event boundary than a doorway separating two contextually extremely similar rooms.
+
+Second, no analyses were conducted on the relationship between objects and room contexts. Since the present experimental setup took around one hour to complete, an additional experimental condition with objects either belonging to one room context or another would have drastically increased that time. Since the experiment took place in an immersive virtual reality using a head-mounted display, this could potentially drastically increase the degree of cyber sickness symptoms in participants. This analysis has thus been skipped, since the data would only contain a very small number of trials that could be examined for effects of the presented objects.
+
+## 3D Assets {#assets}
+
+The walls, floors and roofs for each room were created and modelled using the open-source creation suite Blender 4.1. All other objects and 3D models were retrieved from the sources below and afterwards combined, scaled, and adjusted using Blender.
+
+Objects used as stimuli, as well as those used to decorate the rooms were selected from the following asset packs, all retrieved November 6, 2023:
+
+- https://styloo.itch.io/classroom-asset-pack
+- https://vnbp.itch.io/low-poly-3d-gaming-set-vnb
+- https://vnbp.itch.io/low-poly-3d-office-set-vnb
+- https://vnbp.itch.io/low-poly-3d-office-set-2-vnb
+- https://vnbp.itch.io/low-poly-gym-set
+- https://vnbp.itch.io/low-poly-home-set

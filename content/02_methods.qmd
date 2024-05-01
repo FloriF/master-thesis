@@ -1,6 +1,97 @@
 # Methods
 
-Godot Engine v4.1.3.stable.official -> still correct?
+The sample size, hypotheses and analyses for this study were preregistered on AsPredicted (#163468, [https://aspredicted.org/aj9rf.pdf](https://aspredicted.org/aj9rf.pdf)) before any data was collected. Due to this study being of exploratory nature and part of a Master Thesis, there are several deviations that are compiled in the appendix (see \ref{prereg-deviations}).
+
+Written informed consent was obtained from all participants regarding the nature of this study and its risks (cyber sickness) as well as the use and publication of the collected data in an anonymous form (see \ref{availability}).
 
 
-Godot XR tools 4.3.0
+## Participants
+
+A total of 27 participants were recruited for this study, mainly from the pool of students at the University of Tübingen. The sampling procedure was a general recruitment mail to the participant pool of cognitive science and psychology students (which provided almost half of the participants), as well as a "snowball"-recruitment strategy by strongly encouraging participants to inform their peers of this study. All participants received partial course credit ("Versuchspersonenstunden") for their participation.
+
+Two participants were excluded from all analyses due to programming error and incomplete data. The mean age of the remaining 25 participants (15 female) was 20.8 years, range 18 - 29 years. All had normal or corrected-to-normal vision and participants with glasses ($n = 10$) wore them comfortably below the head-mounted display (HMD).
+
+A pre-experiment questionnaire revealed that most participants had only few previous experiences using immersive VR, mostly consisting of participation in other studies or educational settings with low interaction (e.g., exhibition in a museum). Six participants reported not having used VR previously.
+
+
+## Equipment and Setup
+
+The virtual environment was created using the open-source game engine Godot v.4.1.3 and the community-created VR toolkit Godot XR tools 4.3.0. The experiment was run on a Windows 11 personal computer (AMD Athlon 3000G, Radeon RX570) within the Godot engine. Participants viewed the virtual environment through an HTC Vive Pro HMD. All objects used for designing the virtual environment were retrieved from [https://itch.io](https://itch.io) and were available under a Creative Commons License (CC BY 4.0). A detailed list of the sources can be found in the appendix (section \ref{assets}).
+
+Participants were seated on a revolving chair roughly in the centre of the tracking area of two HTC Vive Pro Base Station 2.0, connected to the PC via Bluetooth. For movement and interacting with the response buttons, they used two HTC Vive wireless controllers. Movement via the controllers was available by pressing the main trigger buttons with their index fingers, providing straight movement forward or backward (right and left controller, respectively) in the direction they were currently facing. Rotation, turning around and movement along curved paths was available by turning on the revolving chair, but was discouraged by the experimenter. This way of movement was selected in order to reduce potential cyber sickness symptoms and enable participants to move easily and quickly within the virtual environment.
+
+## Procedure and Stimuli
+
+This experiment combined a manipulation of the visual and semantic context of the virtual environment with a spatial object layout memory task. Both aspects are described in the following sections separately.
+
+Participants were introduced to the controls and had a few minutes to get used to them by moving freely through the virtual environment. Afterwards, they received an explanation of the experimental task and completed two halves of a training block to make them comfortable with the task and the environment. During the second half of the training block, a black vignette was introduced to reduce peripheral vision during movement and thus to reduce the probability of cyber sickness. Participants could then choose whether to use this setting or not, depending on the degree of cyber sickness symptoms during the training block. If participants responded too slow or did not move quickly enough (see \ref{trial_structure}), those trials were repeated during the training block, resulting in at least 16 valid, completed training trials for each participant before the actual experiment started.
+
+No breaks or block structure was used for this experiment to allow each participant to take self-directed breaks. This was a deliberate decision to make sure that immediate action (e.g., breaks, removing HMD and physically walking through the room) could be taken at any time as soon as any participant reported any sign of cyber sickness.
+
+After the experiment, participants completed a simple questionnaire to record strategies used during the experiment as well as the participants' experience with the VR setup.
+
+### Room Context
+
+The virtual environment consisted of two rooms that were either connected by a doorway or not (see Fig. \ref{room_structure}). Each room could either resemble a "living room" or a "workshop", providing two different semantic and visual contexts. The rooms were constructed and combined in a balanced way to create the experimental conditions of a 2 (doorway vs. no doorway) by 2 (same context vs. different context) balanced design.
+
+```{=tex}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.85\textwidth]{content/images/room_structure.png}
+  \slcaption{\textbf{Example room overview}. Ceiling and ceiling lamps have been removed for this visualization. Two rooms are connected by a doorway (for the "no doorway" condition, the separating wall and door are removed while everything else stays the same). On the left is an example of the "workshop" room: This room had a red, textured wall and the decoration were objects like boxes and tires on the floor as well as a countertop, and a washing machine. Almost no small objects are placed as additional decoration. On the right is an example of a "living room", consisting of green walls and a textured wooden floor. The furniture are closets, a bed, a desk, and a variety of small decorative objects are scattered at usual positions (books on shelves, laptop on the desk, cushions on the couch). For each room, two different variations were created with slight differences in placement of the furniture and a slightly different selection of decorating objects, in order to increase visual variability, immersion and realism. The room variation was drawn completely at random for each trial. In this example, participants would start in the right "living room" looking at the table in the centre, and they would have to move through the doorway into the "workshop".}
+  \label{room_structure}
+\end{figure}
+```
+
+Each room was a hexagon with decorating objects defining the context placed along five walls, and a large, circular table in the centre that contained the objects for the memory task. If the two rooms were connected by a doorway, there was a wall with a door that opened by itself when the participant moved close to it (with a slight delay of 0.15 seconds after entering the region in front of the door). This wall did not have any decoration related to the room context except the wall colour. This ensured that the overall setup and decoration did not change between the two doorway conditions, as well as not placing any objects at the boundary between the two rooms. Regardless of experimental condition, the distance between the rooms and the door location within the wall was identical for all trials, ensuring that the spatial distance travelled when moving between the two rooms was constant.
+
+Participants started each trial facing the table in the centre of the first room, with their back towards the second room so they could not anticipate the presence of a doorway or a context change (in case there was no doorway, and the second room was visible). They ended each trial while facing the table in the second room and having the first room at their back.
+
+### Memory Task
+
+The memory task was a change detection task using a layout of different objects, inspired by the memory task by @Buelthoff_2000.
+
+On the table in the middle of each room, seven locations were arranged in a circle in an equidistant fashion. Each of these locations could either be occupied by an object or not, and the locations were exactly the same for each trial. The participants' task was to look at the layout of objects on the table in the first room and remember it, then move to the second room and compare the remembered layout with the layout of objects presented there. They then had to respond whether the object layout was identical or not and afterwards indicate their subjective confidence for the given response (see also Fig. \ref{trial_example}). In half of the trials, there was a change in the object layout, while for the other half the object layout was identical between the two rooms. Importantly, a change in the object layout consisted of two objects swapping places, and participants were informed that this was the only change that could happen.
+
+The objects were randomly drawn for each trial from a pool of fourteen objects, with no duplicates within each single trial. The objects were selected from the pool of 3D models available in the 3D asset packs - this ensured that all objects were similar in visual style. These objects were not used for room decoration, but some of them were semantically more related to one of the two room contexts. Importantly, this decision of object selection was made to increase the ecological validity of the experiment: All objects had obvious use cases or names instead of being abstract, randomly coloured shapes. To increase task difficulty, some objects were visually or semantically similar to each other (e.g., circular shape: tape - CD; tools: wrench - hammer).
+
+### Trial Structure {#trial_structure}
+
+In front of the table in the first room was a blue button that started each trial when pressed. Participants were instructed to press the button by moving the controller (and thus their hand in the virtual and physical environment) as though actually pressing the button. Slight haptic feedback was provided for pressing any button by a short vibration of the controller.
+
+Pressing the blue button lifted the cover from the table for a total of 3 seconds (0.5 seconds for movement up and down respectively, 2 seconds no movement at the highest point). Participants then had to turn around at their current position by 180 degrees and move straight onto a mat on the floor of the second room. For completing the whole movement, participants had a total of 8 seconds, starting as soon as the cover of the first table was closed again. Once those 8 seconds had passed, the cover from the table in the second room opened in exactly the same manner as in the first room. In the second room, there were two buttons, which were used to respond whether the layout of objects on the tables had changed or not: a green button to respond there was no change ("GLEICH", same), and a red button to respond that a change was detected ("VERSCH", different). Participants had a maximum of 5 seconds to respond after the cover started revealing the second object layout. After interacting with either of those buttons, they disappeared quickly down into the floor, followed by a set of four yellow buttons appearing from the ground. Those buttons were used to record the confidence each participant had in their response for each single trial ("geraten" - "nicht sicher" - "ziemlich sicher" - "sehr sicher", guessed - not confident - quite confident - very confident). Participants had a maximum of 5 seconds to give their confidence response, starting when the buttons had appeared completely. The location of the response buttons and their order from left to right was the same for each trial. After pressing one of the yellow confidence buttons, the screen turned black for roughly 2 seconds and participants were placed in front of the blue button in the next trial (see Fig. \ref{trial_example}). These timings ensured that participants had enough time to move on their own and with their own speed between the two rooms while simultaneously keeping the retention time for the memory task exactly the same for each participant and trial.
+
+If participants responded too slowly to the memory task or the confidence rating, an error message appeared in front of them to respond a little bit faster. Similarly, if participants moved too slowly and did not stand roughly on the mat in the second room once their movement time of 8 seconds had passed, they were informed to move faster between the two rooms. All those trials were marked as invalid and repeated at the end of the experiment, resulting in a total of 128 valid trials for each participant. Importantly, the experimental condition (doorway and room context combination) was kept for the repeated trials to ensure a balanced design, while the objects and room variations were drawn randomly again. This also ensured that errors did not result in accidental learning over multiple trials by providing a new object layout.
+
+For each trial the response correctness and response time was recorded, as well as the reported subjective confidence and the response time for the confidence decision.
+
+A demonstration of an example trial is available in video format (https://osf.io/5cydj).
+
+```{=tex}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.35\textwidth]{content/images/trial_01.png}
+  \includegraphics[width=0.35\textwidth]{content/images/trial_02.png}
+  \includegraphics[width=0.35\textwidth]{content/images/trial_03.png}
+  \includegraphics[width=0.35\textwidth]{content/images/trial_04.png}
+  \includegraphics[width=0.35\textwidth]{content/images/trial_05.png}
+  \slcaption{\textbf{Trial example}. \textbf{Top left:} Participants start with a view of the blue button to start the trial, in front of the table. The table is initially covered. \textbf{Top right:} After pressing the blue button, the cover moves up and reveals the object layout to memorize. Note that there is a separate light source illuminating the objects, so that for both the first and second presentation of the objects, the visual image is as similar as possible - additionally, the cover of the table at no point interacts with that light source, as is more evident in the video demonstration of the trial, available online. \textbf{Middle left:} After the cover closes again, participants turn around and move into the second room. Their goal location is marked by a red mat on the ground, from which they can comfortably reach the response buttons. \textbf{Middle right:} After a constant delay, the cover lifts from this table and participants can give their answer whether the layout changed. \textbf{Bottom:} After that response, new buttons appear which participants used to respond how confident they were in their response. Afterwards, the screen turns to black, and participants start in the next room. The experimental condition depicted here contains a context change (red "workshop" to green "living room"), there is no doorway.}
+  \label{trial_example}
+\end{figure}
+```
+
+### Task Difficulty
+
+Due to the exploratory nature of this experiment, a slight change to the memory task was made during data collection, which was not preregistered.
+
+The first 18 participants completed a memory task where 5 out of the 7 locations were occupied by a random object. Due to the nature of the task, participants quickly and consistently adapted a strategy of remembering only 4 of those objects, sometimes aided by structuring the layout using the two empty locations, which resulted in a very high task performance (see section \ref{analysis}). Thus, the final 7 participants completed a harder version of the task, where all 7 locations were occupied (see Fig. \ref{task_difficulty}).
+
+```{=tex}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.45\textwidth]{content/images/easy_task.png}
+  \includegraphics[width=0.45\textwidth]{content/images/hard_task.png}
+  \slcaption{\textbf{Task difficulty comparison}. \textbf{Left:} Easy task for the first 18 participants. Five different objects were randomly drawn and placed on five of the seven fixed locations. As a result, two empty locations could be present. If there was a switch of objects, it never occured that an empty location was now occupied since this would have allowed a too simple strategy of only remembering the two empty locations. Still, participants usually only remembered four objects, since this allowed to detect any switch between two objects. \textbf{Right:} Increased task difficulty for the final 7 participants. All of the seven possible locations are occupied with randomly drawn objects, increasing the number of items that need to be correctly remembered to at least six.}
+  \label{task_difficulty}
+\end{figure}
+```

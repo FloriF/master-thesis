@@ -1,1 +1,2 @@
-# Results
+<!-- I removed this section and combined analysis and results for a better overall flow of this report. Initially, I considered splitting task difficulty in "Experiment 1" and "Experiment 2" and used this file for the second experiment.
+After discarding that approach, I just was too lazy to remove this file completely and make sure everything compiles without problems, so now this is just an empty document that is still included in the main document... -->

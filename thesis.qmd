@@ -1,6 +1,6 @@
 ---
-title: Title2
-subtitle: Master Thesis Cognitive Science
+title: The Doorway Effect For An Object Layout Memory Task
+subtitle: An Examination Using Immersive Virtual Reality
 author:
   - name: Florian Friedrich
     orcid: 0000-0002-2252-3932
@@ -11,13 +11,15 @@ date-format: long
 bibliography: content/06_references.bib
 csl: style/apa-style.csl
 link-citations: true
-linestretch: 1.5
+linestretch: 1.35
 link-color: black
 execute:
   echo: false
 format:
   pdf:
     documentclass: article
+    classoption:
+      - twoside
     papersize: a4
     fontsize: 12pt
     colorlinks: false
@@ -25,8 +27,8 @@ format:
     sansfont: Arial
     monofont: Courier New
     number-sections: true
+    toc-depth: 1
     number-depth: 3
-    toc-depth: 3
     include-in-header:
       - style/styling.tex
     template-partials:
@@ -34,8 +36,19 @@ format:
     keep-tex: false
 ---
 
+<!-- note that this file might contain minor adjustments for a more beautiful look, e.g., empty pages etc. These are not really necessary -->
+
+<!-- ugly fix for binding correction -->
+\let\tmp\oddsidemargin
+\let\oddsidemargin\evensidemargin
+\let\evensidemargin\tmp
+\reversemarginpar
+
 <!-- titlepage is generated from before-body.tex -->
 \pagenumbering{gobble}
+\newpage
+\thispagestyle{empty}
+\hspace{5em}
 \newpage
 
 <!-- abstract -->
@@ -43,19 +56,24 @@ format:
 \pagenumbering{roman}
 {{< include content/00_abstract.qmd >}}
 \newpage
-
+\hspace{5em}
+\newpage
 <!-- toc, lof, lot and add them to toc-->
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
 \tableofcontents
 \newpage
 
 \addcontentsline{toc}{section}{\listfigurename}
 \listoffigures
-\newpage
+<!-- \newpage -->
 
 \addcontentsline{toc}{section}{\listtablename}
 \listoftables
 \newpage
-
+\thispagestyle{empty}
+\hspace{5em}
+\newpage
 <!-- start arabic page numbering (1 2 3) -->
 \pagenumbering{arabic}
 
@@ -74,6 +92,9 @@ format:
 {{< include content/05_discussion.qmd >}}
 \newpage
 
+\hspace{5em}
+\newpage
+
 # References
 <!-- custom formatting: everything except the first line is indented a little bit to make it easier to find references by author names -->
 \begingroup
@@ -84,9 +105,12 @@ format:
 <div id="refs"></div>
 \endgroup
 \newpage
+\hspace{5em}
+\newpage
 
 {{< include content/07_appendix.qmd >}}
 \newpage
-
+\hspace{5em}
+\newpage
 {{< include content/08_statement.qmd >}}
 \newpage

@@ -1,1 +1,222 @@
-# Analysis
+# Data Analysis and Results {#analysis}
+
+For all following analyses, only the valid trials for each participant are included. There are two trials where the response to the memory task was given with a response time of less than 200 ms, indicating an accidental button press. Those trials are removed, leaving a total of 127.9 trials per participant on average (range 127 - 128 trials). Similarly low response times could be observed for the confidence responses. However, since the confidence buttons were identical for each trial, their position could be anticipated, leading to very low confidence response times. Since no relevant analyses were planned for this variable, no trials are rejected due to low confidence response times.
+
+Note that the following analyses only include the first 18 participants that completed the initial task where only five of the seven object locations were occupied. The remaining seven participants with a more difficult task are analysed separately (see \ref{exploratory}).
+
+## Response Times and Performance
+
+The overall median response time is 2.73 s, with individual mean response times between 2.23 s and 3.94 s (see Fig. \ref{response_times}). The overall mean response time is 2.85 s ($SD = 0.42$ s). Due to the highly immersive way of responding (by physically moving the hand to the response buttons), there is a very high variability in the recorded response times, possibly masking any effects of the experimental conditions.
+
+The mean percentage of correct responses is 86.3% ($SD = 9.9$%, range 68.0% - 97.7%). As can be seen in Fig. \ref{response_times}, there is no relationship between speed of responses and overall performance.
+
+```{=tex}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.495\textwidth]{content/images/plot_rt_hist.png}
+  \includegraphics[width=0.495\textwidth]{content/images/plot_summary.png}
+  \slcaption{\textbf{Response time and performance overview}. \textbf{Left:} Response time distribution for all participants, bin size 100 ms. \textbf{Right:} Mean percentage of correct responses and mean response times for each participant. The dashed line represents a simple linear regression ($r = -.986$, $p = .868$).}
+  \label{response_times}
+\end{figure}
+```
+
+A repeated-measures ANOVA was conducted with the doorway condition (doorway vs. no doorway) and the context change condition (same context vs. different context) as within-subject factors, to determine if the response times for the memory task were influenced by the doorway and context transitions between the two rooms. No effect of doorway ($F(1,17)=0.00$, $p=.98$) or context ($F(1,17)=0.45$, $p=.51$) was found (see Fig. \ref{response_time_anova}), and there was no interaction ($F(1,17)=0.13$, $p=.72$).
+
+```{=tex}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.495\textwidth]{content/images/anova_rt_plot.png}
+  \includegraphics[width=0.495\textwidth]{content/images/rt_diffs_plot.png}
+  \slcaption{\textbf{Response times for doorway and context conditions}. \textbf{Left:} Each dot represents the mean response time for one participant, the violin plot in the background visualises the density distribution over all participants. \textbf{Right:} This plot shows the individual per-participant differences in response time between the two doorway conditions (no doorway - doorway). Negative values thus indicate a higher response time for the "doorway" condition.}
+  \label{response_time_anova}
+\end{figure}
+```
+
+A second repeated-measures ANOVA with the same setup was conducted on the overall percentage of correct responses for each participant. Again, there was no effect of doorway condition ($F(1,17)=1.57$, $p=.23$) or context change ($F(1,17)=0.20$, $p=.66$) and no interaction ($F(1,17)=0.20$, $p=.66$), as can also be seen in Fig. \ref{correctness_anova}.
+
+```{=tex}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.495\textwidth]{content/images/anova_correctness_plot.png}
+  \includegraphics[width=0.495\textwidth]{content/images/correctness_diffs_plot.png}
+  \slcaption{\textbf{Response correctness for doorway and context conditions}. \textbf{Left:} Each dot represents the mean percentage of correct responses for one participant, the violin plot in the background visualises the density distribution over all participants. \textbf{Right:} This plot shows the individual per-participant differences in performance between the two doorway conditions (no doorway - doorway). Positive values thus indicate a higher performance for the "no doorway" condition.}
+  \label{correctness_anova}
+\end{figure}
+```
+
+## Hit Rates
+
+Figure \ref{correctness_anova} demonstrates the very high number of correct responses regardless of experimental condition for almost all participants. However, the percentage of correct responses takes all trials into account, whether there actually was a change in the object layout or not. In order to take a closer look at the data, an approach based on signal detection theory was employed. Since half of the trials did actually contain a change in the object layout and the other half did not, it was possible to define "hits" as the correct detection of a layout change, and "false alarms" as the incorrect responses to an unchanged object layout. This way, the percentage of correctly detecting the change in the object layout (hit rate) could be analysed separately from those trials without a change.
+
+The mean hit rate is 83.3% ($SD = 13.8$%), with individual hit rates between 59.4% and 98.4%. The corresponding false alarm rates ranged from 0% to 37.5%, with a mean of 10.8% ($SD = 9.3$%). A repeated-measures ANOVA with the hit rate as dependent variable revealed only a small effect of doorway condition ($F(1,17)=4.78$, $p=.04$), but no effect of the context change ($F(1,17)=0.02$, $p=.90$) and no interaction ($F(1,17)=.09$, $p=.76$). The difference in hitrate between the doorway and no doorway condition is 4.5%, with a higher hitrate if no doorway was present (85.6% vs. 81.1%, see Fig. \ref{hitrate_anova}).
+
+```{=tex}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.495\textwidth]{content/images/anova_hitrate_plot.png}
+  \includegraphics[width=0.495\textwidth]{content/images/hitrate_diffs_plot.png}
+  \slcaption{\textbf{Hitrates for doorway and context conditions}. \textbf{Left:} Each dot represents the mean hit rate for one participant, the violin plot in the background visualises the density distribution over all participants. \textbf{Right:} This plot shows the individual per-participant differences in hit rate between the two doorway conditions (no doorway - doorway). Positive values thus indicate a higher hit rate for the "no doorway" condition.}
+  \label{hitrate_anova}
+\end{figure}
+```
+
+## Exploratory Analyses {#exploratory}
+
+This section contains exploratory analyses as well as the analysis of the final 7 participants with a more difficult memory task.
+
+### Confidence Judgements
+
+Participants rated their subjective confidence of their response to the memory task on a 4-point scale. For the following analysis, these confidence judgements were transformed into numerical values from 0 to 3 (0: guess, 1: not confident, 2: quite confident, 3: very confident). Note that participants only used the verbal descriptions to give their responses. Additionally, due to the design of the virtual environment, the confidence buttons appeared with a slight delay after a response to the memory task was given, and the order of the buttons was always identical. Thus, participants usually already reached for the location where the confidence button would be before they were actually able to press that button. This might influence the accuracy of this confidence measure and is the reason why the confidence response times are not further examined.
+
+Using the numerical transformation, the mean confidence of participants in their responses is 2.22, with a range of 1.66 - 2.80 (Fig. \ref{plot_confidence}), showing a clear tendency of participants giving very high confidence ratings. An ANOVA using the numerical confidence rating as a dependent variable revealed no effects of doorway ($F(1,17)=0.00$, $p=.98$) or context ($F(1,17)=0.17$, $p=.68$) and no interaction ($F(1,17) = 0.19$, $p=.67$).
+
+```{=tex}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.495\textwidth]{content/images/plot_confidence.png}
+  \slcaption{\textbf{Confidence ratings and overall performance}. There is a relation between the overall percentage of correct responses and the overall mean confidence of each participant ($r = 17.04$, $p = .005$), with participants showing a higher performance also giving higher confidence ratings on average.}
+  \label{plot_confidence}
+\end{figure}
+```
+
+### Task difficulty
+
+For the final 7 participants (5 female), a harder memory task was employed. The median response times is 3.02 s, with a range of individual median response times between 2.67 s and 3.48 s (see Fig. \ref{response_times_hard}), with an overall mean response time of 3.06 s ($SD = 0.29$ s). The mean percentage of correct responses is 76.5% ($SD = 14.1$%), with individual performances ranging between 51.6% and 96.1%. Hit rates for this group of participants range from 34.4% to 98.4% (mean hit rate 72.5%, $SD = 21.2$ %), with false alarm rates between 6.3% and 35.9% (mean false alarm rate 19.6%, $SD=12.1$%). Using the same numerical transformation for the confidence ratings as above, the mean confidence is 2.03 (range 1.66 - 2.66).
+
+```{=tex}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.325\textwidth]{content/images/plot_rt_hist_hard.png}
+  \includegraphics[width=0.325\textwidth]{content/images/plot_summary_hard.png}
+  \includegraphics[width=0.325\textwidth]{content/images/plot_confidence_hard.png}
+  \slcaption{\textbf{Response time, performance and confidence overview for increased task difficulty}. \textbf{Left:} Response time distribution for all 7 participants, bin size 100 ms. \textbf{Middle:} Mean percentage of correct responses and mean response times for each participant. The dashed line represents a simple linear regression ($r = 15.50$, $p = .49$). \textbf{Right:} Mean confidence rating and overall performance, with the dashed line representing a simple linear regression ($r=34.69$, $p=.12$).}
+  \label{response_times_hard}
+\end{figure}
+```
+
+For comparability, ANOVAs have been applied to this data in the same way as reported earlier. For response times, no effect was evident (doorway: $F(1,6)=3.28$, $p=.12$, context: $F(1,6)=0.56$, $p=.48$, interaction: $F(1,6)=0.01$, $p=.91$), and there was no effect on the percentage of correct responses overall (doorway: $F(1,6)=0.36$, $p=.57$, context: $F(1,6)=0.01$, $p=.92$, interaction: $F(1,6)=0.92$, $p=.37$). Similarly, no effect of doorway or context on hit rate could be found (doorway: $F(1,6)=2.15$, $p=.19$, context: $F(1,6)=0.02$, $p=.90$, interaction: $F(1,6)=1.76$, $p=.23$). Surprisingly, there was a significant effect of the doorway condition on the confidence ratings ($F(1,6)=10.03$, $p=.02$), with no effect of context ($F(1,6)=1.16$, $p=.32$) and no interaction ($F(1,6)=1.78$, $p=.23$). While participants were slightly more confident in the "no doorway" condition, this result should not be deemed very important due to the small sample size and also the small numerical difference between the conditions (numerically transformed mean confidence: 2.07 vs. 1.98 for "no doorway" vs. "doorway", respectively).
+
+```{=tex}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.325\textwidth]{content/images/anova_rt_plot_hard.png}
+  \includegraphics[width=0.325\textwidth]{content/images/anova_correctness_plot_hard.png}
+  \includegraphics[width=0.325\textwidth]{content/images/anova_hitrate_plot_hard.png}
+  \includegraphics[width=0.325\textwidth]{content/images/rt_diffs_plot_hard.png}
+  \includegraphics[width=0.325\textwidth]{content/images/correctness_diffs_plot_hard.png}
+  \includegraphics[width=0.325\textwidth]{content/images/hitrate_diffs_plot_hard.png}
+  \slcaption{\textbf{Response time, response correctness and hit rates for difficult memory task}. These figures follow the same structure as Figs. \ref{response_time_anova}, \ref{correctness_anova} and \ref{hitrate_anova}. The bottom row shows the individual, per-participant differences between the doorway conditions (no doorway - doorway). Note that the sample size is smaller than for the results reported earlier. \textbf{Left:} Response times. \textbf{Middle:} Response correctness. \textbf{Right:} Hit rates.}
+  \label{hard_anova_plots}
+\end{figure}
+```
+
+### Lowest performing participants
+
+The previously reported analyses show that no clear effect of doorway or context change on memory effect was present in this study. However, in both memory tasks (easy and difficult), there are a few participants with very high percentages of correct responses. It might be reasonable to assume that they used very effective memory strategies or experienced the task as too easy overall. This might lead to a ceiling effect that masks the presence of any result of the experimental manipulation. In an additional exploratory analysis, only the worst performing participants were analysed. Note that this analysis combines the two task difficulties, so all results presented here should be interpreted with care.
+
+Visual inspection of the overall summary of performance for all participants (see Fig. \ref{performance_all}) was used to define the limit for low-performing participants. This limit was chosen to be 80% overall correct responses, in order to provide an acceptable sample size ($n = 11$) for this exploratory analysis. This means that for the following analysis, only participants were included that responded correctly to the memory task in less than 80% of the trials, from both task difficulties (number of participants included from easy task: $n = 7$, hard task: $n=4$).
+
+For these participants, the median response time is 2.73 s, the mean response time is 2.84 s ($SD=0.46$ s, range 2.32 s - 3.94 s). The mean percentage of correct responses is 72.4% ($SD=7.8$%) with individual values in the range between 51.6% and 78.9%. Hit rates range from 34.4% to 84.4% (mean hit rate 66.2%, $SD = 14.2$%) with false alarm rates between 9.4% and 37.5% (mean false alarm rate 21.3%, $SD=10.1$%). The mean confidence rating is 1.95 (range 1.72 - 2.16).
+
+```{=tex}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.495\textwidth]{content/images/plot_summary_all.png}
+  \slcaption{\textbf{Overall performance and response times for all participants}. This combines the participants from the easy memory task ($n = 18$) and the hard memory task ($n=7$).}
+  \label{performance_all}
+\end{figure}
+```
+
+Again, ANOVAs were applied with the doorway and context conditions as within-subject variables on response times, response correctness, hit rates and confidence ratings. There was no effect on response times (doorway: $F(1,10)=0.00$, $p=.96$, context: $F(1,10)=1.61$, $p=.23$, interaction: $F(1,10)=0.05$, $p=.83$) or response correctness (doorway: $F(1,10)=3.17$, $p=.11$, context: $F(1,10)=0.61$, $p=.45$, interaction: $F(1,10)=1.35$, $p=.27$). However, there was a significant effect of doorway condition on hit rate ($F(1,10)=12.36$, $p=.0056$), with no effect of context ($F(1,10)=0.14$, $p=.72$) and no interaction ($F(1,10)=0.27$, $p=.62$). When averaging over the context conditions, the hit rate difference between the two doorway conditions is 9.4%, with a higher hit rate for the "no doorway" condition (70.9%) than the "doorway" condition (61.5%).
+
+```{=tex}
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.325\textwidth]{content/images/anova_rt_plot_worst.png}
+  \includegraphics[width=0.325\textwidth]{content/images/anova_correctness_plot_worst.png}
+  \includegraphics[width=0.325\textwidth]{content/images/anova_hitrate_plot_worst.png}
+  \includegraphics[width=0.325\textwidth]{content/images/rt_diffs_plot_worst.png}
+  \includegraphics[width=0.325\textwidth]{content/images/correctness_diffs_plot_worst.png}
+  \includegraphics[width=0.325\textwidth]{content/images/hitrate_diffs_plot_worst.png}
+  \slcaption{\textbf{Response time, response correctness and hit rates for lowest performing participants}. These figures follow the same structure as Figs. \ref{response_time_anova}, \ref{correctness_anova} and \ref{hitrate_anova}. The bottom row shows the individual, per-participant differences between the doorway conditions (no doorway - doorway). Note that this combines participants from the easy and difficult task. \textbf{Left:} Response times. \textbf{Middle:} Response correctness. \textbf{Right:} Hit rates.}
+  \label{worst_anova_plots}
+\end{figure}
+```
+
+### Questionnaire
+
+The post-experiment questionnaire contained an open question regarding the strategies used by the participants for the memory task, as well as 7-point scales for rating their VR experience.
+
+As already mentioned previously, the dominant strategy to remember the objects in the easy task was to remember only 4 of the 5 items, usually by mentally listing them either in clockwise or counterclockwise order. The items were usually remembered by name or colour. Similar strategies were used by the participants with the difficult memory task.
+
+Table \ref{tab_vr} contains the questions from the questionnaire as well as the participants' responses. There are four sections with selected items taken from the Virtual Reality Neuroscience Questionnaire [@Kourtesis_2019]. The sections focused on subjective immersion, the usability of the controls, the usefulness of the initial training trials as well as symptoms of cyber sickness. Since only a subset of items from the questionnaire were used in this study, no statistical analysis of responses is presented here.
+
+Responses indicate that the quality and immersion of this study's virtual environment was perceived as neutral to high. Using the controls and interacting with the environment was experienced as being very easy, and the initial training trials were rated as very helpful overall. Notably, no participant stopped the experiment due to cyber sickness, and the usual cyber sickness symptoms were mostly rated as being mild.
+
+\begin{sidewaystable}[]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l|c|c|c|c|c|c|c|}
+\cline{2-8}
+\textbf{} &
+  \textbf{Extremely low} &
+  \textbf{Very low} &
+  \textbf{Low} &
+  \textbf{Neutral} &
+  \textbf{High} &
+  \textbf{Very high} &
+  \textbf{Extremely high} \\ \hline
+\multicolumn{1}{|l|}{\textbf{What is the level of immersion you experienced?}}                              &  & 1 & 2 & 5 & 14 & 2  & 1  \\ \hline
+\multicolumn{1}{|l|}{\textbf{What was your level of enjoyment of the VR experienece?}}                      &  &   & 3 & 7 & 11 & 4  &    \\ \hline
+\multicolumn{1}{|l|}{\textbf{How was the quality of the graphics?}}                                         &  & 3 & 8 & 9 & 5  &    &    \\ \hline
+\multicolumn{1}{|l|}{\vtop{\hbox{\strut\textbf{How was the quality of the VR technology overall (headset,}}\hbox{\strut\textbf{controller, etc)?}}} } &  & 1 & 1 & 7 & 13 & 3  &    \\ \hline
+\textbf{} &
+  \textbf{Extremely difficult} &
+  \textbf{Very difficult} &
+  \textbf{Difficult} &
+  \textbf{Neutral} &
+  \textbf{Easy} &
+  \textbf{Very easy} &
+  \textbf{Extremely easy} \\ \hline
+\multicolumn{1}{|l|}{\vtop{\hbox{\strut\textbf{How easy was using the control of the navigation system}}\hbox{\strut\textbf{in the virtual environment?}}}} &
+   &
+   &
+   &
+   &
+  5 &
+  17 &
+  3 \\ \hline
+\multicolumn{1}{|l|}{\vtop{\hbox{\strut\textbf{How easy was moving to your goal locations in the}}\hbox{\strut\textbf{ virtual environment?}}}}       &  &   & 1 &   & 8  & 11 & 5  \\ \hline
+\multicolumn{1}{|l|}{\vtop{\hbox{\strut\textbf{How easy was using the interactive elements in the}}\hbox{\strut\textbf{virtual environment?}}} }      &  &   & 1 &   & 6  & 13 & 5  \\ \hline
+\textbf{} &
+  \textbf{Extremely unhelpful} &
+  \textbf{Very unhelpful} &
+  \textbf{Unhelpful} &
+  \textbf{Neutral} &
+  \textbf{Helpful} &
+  \textbf{Very helpful} &
+  \textbf{Extremely helpful} \\ \hline
+\multicolumn{1}{|l|}{\vtop{\hbox{\strut\textbf{How helpful were the training trials at the start of the}}\hbox{\strut\textbf{experiment for interacting with the virtual environment?}}}} &
+   &
+   &
+   &
+  1 &
+  4 &
+  9 &
+  11 \\ \hline
+\textbf{} &
+  \textbf{Extremenly intense} &
+  \textbf{Very intense} &
+  \textbf{Intense} &
+  \textbf{Moderate} &
+  \textbf{Mild} &
+  \textbf{Very mild} &
+  \textbf{Absent} \\ \hline
+\multicolumn{1}{|l|}{\textbf{Did you feel dizziness?}}                                                      &  &   &   & 5 & 2  & 13 & 5  \\ \hline
+\multicolumn{1}{|l|}{\textbf{Did you feel nausea?}}                                                         &  & 1 & 1 & 3 & 2  & 4  & 14 \\ \hline
+\multicolumn{1}{|l|}{\textbf{Did you feel disoriented?}}                                                    &  &   &   & 1 & 4  & 10 & 10 \\ \hline
+\multicolumn{1}{|l|}{\textbf{Did you feel tired?}}                                                          &  &   &   & 7 & 4  & 6  & 8  \\ \hline
+\end{tabular}%
+}
+\slcaption{\textbf{Questionnaire responses}. Each cell indicates how often that option was selected by all 25 participants.}
+\label{tab_vr}
+\end{sidewaystable}

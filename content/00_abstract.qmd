@@ -1,23 +1,11 @@
 # Abstract {.unnumbered}
 
-One or two sentences providing a **basic introduction** to the field,  comprehensible to a scientist in any discipline.
+The "doorway effect" or location updating effect is the decrease in performance for a simple memory task after passing through a doorway. Walking through doorways, according to the Event Horizon Model, constitutes the passing of an event boundary and switching between two mental event models - thus creating an interference effect on memory items. While previous research has consistently demonstrated this effect using a simple memory task, the present study aimed to take a closer look at the robustness of this phenomenon by applying a new, more complex object layout memory task, using a highly immersive virtual reality. No convincing evidence for the presence of a location updating effect could be found, but this study still reveals potential future research opportunities. In particular, using measures of subjective confidence as well as higher working memory loads seems to be a promising direction to examine the generalizability of the "doorway effect" to different memory tasks. 
 
-Two to three sentences of **more detailed background**, comprehensible  to scientists in related disciplines.
-
-One sentence *clearly* stating the **general problem** being addressed by  this particular study.
-
-One sentence summarizing the main result (with the words "**here we show**" or their equivalent).
-
-Two or three sentences explaining what the **main result** reveals in direct comparison to what was thought to be the case previously, or how the  main result adds to previous knowledge.
-
-One or two sentences to put the results into a more **general context**.
-
-Two or three sentences to provide a **broader perspective**, readily comprehensible to a scientist in any discipline.
-
-(From: https://crsh.github.io/papaja_man/r-markdown-components.html)
-
+\newpage
+\hspace{5em}
 \newpage
 
 # Zusammenfassung {.unnumbered}
 
-Abstract auf deutsch.
+Der "doorway effect" oder "location updating effect" beschreibt, wie einfache Aufgaben für das Arbeitsgedächtnis beeinflusst werden, wenn Probanden eine Tür passieren - die Gedächtnisleistung verschlechtert sich nach dem Durchqueren einer Tür. Laut dem Event Horizon Model ist dieser Vorgang äquivalent zu dem Passieren einer Event-Grenze und damit dem Wechsel zwischen zwei mentalen Event Modelle, was einen Interferenzeffekt zur Folge hat. Die bisherige Forschung konnte diesen Effekt konsistent und wiederholt replizieren, wobei meistens dieselbe, einfach Arbeitsgedächtnis-Aufgabe genutzt wurde. Die vorliegende Studie nutzt eine immersive Virtual Reality, um die Robustheit des "doorway effects" im Kontext einer komplexeren Gedächtnis-Aufgabe (Gedächtnis zu einem Layout verschiedener Objekte) zu untersuchen. Keine überzeugenden Daten für einen solchen Effekt konnten gefunden werden. Trotzdem zeigt diese Studie Möglichkeiten für die zukünftige Forschung auf: Messungen der "confidence" bzw. subjektiven Sicherheit der Probanden sind vielversprechend, genau wie eine Untersuchung des "doorway effects" mit Aufgaben, die das Arbeitsgedächtnis in stärkerem Maße belasten. Dies alles kann helfen, die Generalisierbarkeit des Phänomens sowie seine Anwendbarkeit auf andere Gedächtnisaufgaben zu untersuchen.
